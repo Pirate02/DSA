@@ -8,7 +8,7 @@ int countVowels(const std::string& word){
 
   for(char c : word){
 
-    if(c == 'a' | c == 'e' | c == 'i' | c == 'o'| c== 'u'){ // i know there could be a better way like creating an array and checking if the char lies in there but .. 
+    if(c == 'a' || c == 'e' || c == 'i' || c == 'o'|| c== 'u'){ // i know there could be a better way like creating an array and checking if the char lies in there but .. 
 
       count++;
 
